@@ -645,7 +645,7 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ImageRecognizerTest.xml
-  mExtendedTracking: 0
+  mExtendedTracking: 1
   mInitializeSmartTerrain: 0
   mReconstructionToInitialize: {fileID: 0}
   mSmartTerrainOccluderBoundsMin: {x: 0, y: 0, z: 0}
@@ -899,6 +899,23 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1129400585}
+--- !u!1 &1256056023 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1382923726032782, guid: 47d836825c7bfe84abb9ebc956649660,
+    type: 2}
+  m_PrefabInternal: {fileID: 2028280475}
+--- !u!65 &1256056024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1256056023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 500, y: 500, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1446375311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,7 +1079,7 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ImageRecognizerTest.xml
-  mExtendedTracking: 0
+  mExtendedTracking: 1
   mInitializeSmartTerrain: 0
   mReconstructionToInitialize: {fileID: 0}
   mSmartTerrainOccluderBoundsMin: {x: 0, y: 0, z: 0}
@@ -1235,7 +1252,7 @@ Prefab:
     - target: {fileID: 224643178967636820, guid: 47d836825c7bfe84abb9ebc956649660,
         type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.083
       objectReference: {fileID: 0}
     - target: {fileID: 224643178967636820, guid: 47d836825c7bfe84abb9ebc956649660,
         type: 2}
