@@ -554,7 +554,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: ImageRecognizer
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\Users\MEIP-users\Documents\GitHub\ImageRecognizer\ImageRecognizer\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
